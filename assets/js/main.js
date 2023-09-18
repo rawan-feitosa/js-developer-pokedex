@@ -10,6 +10,7 @@ function convertPokemonToLi(pokemon) {
         <li class="pokemon ${pokemon.type}">
             <span class="number">#${pokemon.number}</span>
             <span class="name">${pokemon.name}</span>
+            <button class="button-pokemon-about" onclick="pokemonInfo(${pokemon.number})" type="button">${pokemon.number}| pokemon order: ${pokemon.number}</button>
 
             <div class="detail">
                 <ol class="types">

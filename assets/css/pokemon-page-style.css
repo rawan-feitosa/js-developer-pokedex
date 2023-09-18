@@ -1,0 +1,148 @@
+.infoBody {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.background-section {
+    margin: 0;
+    padding: 0;
+    height: 27rem;
+}
+
+.background-content {
+    justify-content: flex-start;
+    padding: 2rem;
+}
+
+.background-button {
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    font-size: 2rem;
+    user-select: none;
+    outline: none;
+}
+
+.background-button:hover {
+    cursor: pointer;
+}
+
+.background-name {
+    color: white;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.background-name .background-pokemon-name {
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+.background-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.background-ul-type {
+    list-style-type: none;
+    padding: 0;
+}
+
+.background-type {
+    border-radius: 1rem;
+    filter: brightness(1.1);
+    display: inline-block;
+    margin-right: 1rem;
+    max-width: fit-content;
+    max-height: 2rem;
+}
+
+.background-type p {
+    padding: 1rem;
+    position: relative;
+    bottom: 1.6rem;
+    text-transform: capitalize;
+}
+
+.content-section {
+    background-color: white;
+    display: flex;
+    margin: 15rem 0;
+    margin-bottom: 0;
+    margin-right: 5rem;
+    width: 100%; 
+    display: grid;
+    border-radius: 2.4rem;
+    position: relative;
+    bottom: 20rem;
+}
+
+.content-section .section-header {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    height: 2rem;
+}
+
+
+.content-section .nav-links {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-top: 1rem;
+    padding: 0;
+}
+
+.content-section a {
+    color: rgb(145, 145, 145);
+    margin-right: 1rem;
+}
+
+.content-section a:visited {
+    color: rgb(87, 87, 87);
+    text-transform: capitalize;
+}
+
+.pokeInfoArticle {
+    display: grid;
+    padding-left:2rem;
+    padding-right:2rem;
+    margin: 1rem;
+    justify-content: center;
+    text-decoration: solid;
+}
+
+
+.pokeInfoArticle .title-span {
+    color: gray;
+}
+
+.pokeInfoArticle div {
+    display: flex;
+    margin: 0rem;
+}
+
+.pokeInfoArticle h1 {
+    font-size: 0.8rem;
+    text-align: start;
+    color: gray;
+}
+
+.pokeInfoArticle p {
+    text-align: end;
+    margin: 0 2rem;
+    text-transform: capitalize;
+}
+
+.article-breeding h1 {
+    margin-top: 0.4rem;
+    font-size: 1.4rem;
+    color: black;
+}
